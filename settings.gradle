@@ -1,0 +1,2 @@
+rootProject.name = 'JF'
+include 'EPAM Module 1', 'EPAM Module 2', 'EPAM Module 3', 'EPAM Module 4', 'EPAM Module 5', 'EPAM Module 7', 'EPAM Module 8', 'EPAM Module 13'

@@ -1,0 +1,23 @@
+group 'EPAM Homework'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'org.jetbrains:annotations:+'
+    compileOnly 'org.projectlombok:lombok:+'
+
+    testCompile 'junit:junit:+'
+
+    compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '+'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '+'
+    testCompile 'com.h2database:h2:+'
+    testCompile 'mysql:mysql-connector-java:+'
+}

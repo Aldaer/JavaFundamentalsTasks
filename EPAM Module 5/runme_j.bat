@@ -1,0 +1,1 @@
+java -cp out\artifacts\Navigator\Navigator.jar navigator.Navigator

@@ -1,0 +1,17 @@
+group 'EPAM Homework'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+println("Root dir: ${rootDir}")
+
+dependencies {
+    testCompile 'junit:junit:+'
+    compileOnly 'org.jetbrains:annotations:+'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '+'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '+'
+}

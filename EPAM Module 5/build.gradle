@@ -1,0 +1,18 @@
+group 'EPAM homework'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+println("Root dir: ${rootDir}")
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'org.jetbrains:annotations:+'
+    testCompile 'junit:junit:+'
+}

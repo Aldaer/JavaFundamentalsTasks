@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+    <TransferInfo>
+        <accountFrom>
+            101
+        </accountFrom>
+        <accountTo>
+            102
+        </accountTo>
+        <amount>
+            50
+        </amount>
+    </TransferInfo>
+    <TransferInfo>
+        <accountFrom>101</accountFrom>
+        <accountTo>103</accountTo>
+        <amount>15
+        </amount>
+    </TransferInfo>
+    <TransferInfo>
+        <accountFrom>102</accountFrom>
+        <accountTo>104</accountTo>
+        <amount>20</amount>
+    </TransferInfo>
+    <TransferInfo>
+        <accountFrom>102</accountFrom>
+        <accountTo>105</accountTo>
+        <amount>10</amount>
+    </TransferInfo>
+    <TransferInfo>
+        <accountFrom>103</accountFrom>
+        <accountTo>101</accountTo>
+        <amount>30</amount>
+    </TransferInfo>
+    <TransferInfo>
+        <accountFrom>103</accountFrom>
+        <accountTo>102</accountTo>
+        <amount>45</amount>
+    </TransferInfo>
+    <TransferInfo>
+        <accountFrom>104</accountFrom>
+        <accountTo>103</accountTo>
+        <amount>250</amount>
+        <comment>Large one</comment>
+    </TransferInfo>
+    <TransferInfo>
+        <accountFrom>104</accountFrom>
+        <accountTo>105</accountTo>
+        <amount>75</amount>
+        <comment>Second largest</comment>
+    </TransferInfo>
+    <TransferInfo>
+        <accountFrom>105</accountFrom>
+        <accountTo>101</accountTo>
+        <amount>10</amount>
+    </TransferInfo>
+    <TransferInfo>
+        <accountFrom>105</accountFrom>
+        <accountTo>102</accountTo>
+        <amount>25</amount>
+    </TransferInfo>
+</Root>
